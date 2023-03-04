@@ -27,7 +27,6 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.FutureTask;
 import java.util.function.Consumer;
 
-
 public class MainActivity extends AppCompatActivity {
 
     EditText editTextLatitud;

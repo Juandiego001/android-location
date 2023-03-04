@@ -14,16 +14,14 @@ public class MyLocationListener implements LocationListener {
     @Override
     public void onLocationChanged(@NonNull Location location) {
         // Este método se ejecuta cada vez que se cambia de localización.
-        /*
+
         double theLatitude = location.getLatitude();
         double theLongitude = location.getLongitude();
 
         Log.d("MyLocationListener, latitude", Double.toString(theLatitude));
         Log.d("MyLocationListener, longitude", Double.toString(theLongitude));
 
-        setLatitude(theLatitude);
-        setLongitude(theLongitude);
-        */
+        mainActivity.setLocation(theLatitude, theLongitude);
     }
 
     @Override
